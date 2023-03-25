@@ -1,0 +1,50 @@
+body {
+    background-image: url("bagels.png");
+    background-size: cover;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh
+}
+.container {
+    max-width: 80%;
+    border: 1px solid black;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: pink;
+}
+
+#save-btn {
+    background: lightblue;
+}
+
+#cute-btn {
+    background: green
+}
