@@ -7,12 +7,15 @@ body {
     height: 100vh
 }
 .container {
-    max-width: 50%;
+    max-width: 65%;
     border: 1px solid black;
     background: white;
     border-radius: 15px;
-    margin-top: 25%;
-    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 25%;
+    margin-left: 17.5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 h1 {
@@ -28,21 +31,23 @@ h2 {
 
 button {
     border: 1px solid black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-family: Copperplate, Papyrus, fantasy;
     font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
     border-radius: 5px;
 }
 
-#increment-btn {
-    background: pink;
+.wrapper {
+    padding-top: 1rem;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#save-btn {
+#recipe-btn {
     background: lightblue;
 }
 
