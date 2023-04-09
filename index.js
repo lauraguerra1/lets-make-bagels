@@ -23,7 +23,7 @@ var recipe = {
 // }
 function changeRecipe(count) {
   // if (count) {
-    var countNum = parseInt(count)
+    var countNum = parseFloat(count)
     var newRecipe = {
       flour: (recipe.flour * countNum),
       yogurt: (recipe.yogurt * countNum),
@@ -53,7 +53,7 @@ function changeRecipe(count) {
 // }
 
 function newRecipe() {
-  console.log(count.value)
+  console.log(count.value / 3)
   recipeEl.classList.remove('hidden')
   var newRecipe = changeRecipe(count.value);
   countEl.innerText = `${count.value}`
