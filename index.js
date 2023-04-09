@@ -1,4 +1,4 @@
-// var recipeEl = document.getElementById("recipe-el");
+var recipeEl = document.querySelector(".recipe-el");
 var flourEl = document.querySelector('.flour');
 var bakingSoda = document.querySelector('.baking-soda');
 var bakingPowder = document.querySelector('.baking-powder');
@@ -54,6 +54,7 @@ function changeRecipe(count) {
 
 function newRecipe() {
   console.log(count.value)
+  recipeEl.classList.remove('hidden')
   var newRecipe = changeRecipe(count.value);
   countEl.innerText = `${count.value}`
   flourEl.innerText = `${newRecipe.flour}`;

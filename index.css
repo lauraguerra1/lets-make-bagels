@@ -54,3 +54,7 @@ button {
 #cute-btn {
     background: green
 }
+
+.hidden {
+    display: none;
+}
