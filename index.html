@@ -7,21 +7,19 @@
         <div class="container">
         <h1>Let's Make Bagels!</h1>
         <section class="controls">
-            <div class="wrapper">
                 <form>
                     <label for="bagel-amt"> How many bagels?</label>
-                    <input type="number" id="bagel-amt">
+                    <input type="number" id="bagel-amt" required>
+                    <button id="recipe-btn">See the recipe</button>
                 </form>
-            </div>
-            <button id="recipe-btn" onclick="newRecipe()">See the recipe</button>
         </section>
         <section class="recipe-el hidden">
             <p>To make <span class="count-number"></span> bagel(s), you will need:</p>
                 <article><span class="flour"></span>g flour</article>
                 <article><span class="yogurt"></span>g yogurt</article>
-                <article><span class="baking-powder"></span>tsp baking powder</article>
-                <article><span class="baking-soda"></span>tsp baking soda</article>
-                <article><span class="salt"></span>tsp salt</article>
+                <article><span class="baking-powder"></span> baking powder</article>
+                <article><span class="baking-soda"></span> baking soda</article>
+                <article><span class="salt"></span> salt</article>
         </section>
         <h3>Nutrition Facts</h3>
         <p>Serving size: 1 bagel</p>
@@ -37,7 +35,7 @@
             <li><a href="https://shop.kingarthurbaking.com/items/keto-wheat-flour" target="_blank">King Arthur's Keto Flour</a></li>
             <li><a href="https://www.lightandfit.com/light-yogurt/greek-yogurt/plain/" target="_blank">Dannon Plain Greek Nonfat Yogurt</a></li>
         </u1>
-        <script src="index.js">
+        <script src="calculations.js">
         </script>
         <script src="index.js"></script>
         </div>
