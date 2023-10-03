@@ -3,7 +3,7 @@ This app calculates how much of each ingredient you need for a bagel recipe.
 
 
 As someone who is passionate about health and wellness, but also deeply in love with carbs, I came up with a recipe for protein bagels! 
-I'm talking massive, yummy, and surprisingly healthy. These bagels pack 42 grams each, and will only run you about 200 calories! 
+I'm talking massive, yummy, and surprisingly healthy. These bagels pack 42 grams of protein each, and will only run you about 200 calories! 
 I have been making these weekly for myself, and when I first started learning to code, I had gotten tired of pulling out my calculator and figuiring out the recipe for how many bagels I wanted to make on that given week. 
 That frustration inspired me to make this simple app that calulcates the recipe to make however many bagels your heart desires. 
 
